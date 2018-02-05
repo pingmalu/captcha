@@ -1,0 +1,22 @@
+{
+    "name": "malu/captcha",
+    "description": "php captcha",
+    "keywords": ["captcha", "simple", "malu"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "malu",
+            "email": "malu@malu.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Malu\\Captcha\\": "src/Captcha"
+        }
+    }
+}
