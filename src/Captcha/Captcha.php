@@ -97,7 +97,7 @@ class Captcha
      * 生成验证码的图像
      */
     private function generate()
-    {    
+    {
         //生成验证码的算法
         for($i = 0; $i < $this->v_num; $i++)
         {
@@ -112,7 +112,7 @@ class Captcha
                 $this->font_angles[ rand(0, count($this->font_angles) - 1) ], 
                 $x, $y, 
                 $this->colors['col'],
-                __DIR__ . '/../assets/fonts/'.$this->font,    //加上了字体的相对路径
+                __DIR__ . '/../../assets/fonts/'.$this->font,    //加上了字体的相对路径
                 $this->v_code_str[ $i ]
             );
         }
