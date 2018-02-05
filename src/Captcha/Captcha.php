@@ -3,7 +3,7 @@
  * 机器识别难度较大的验证码
  */
 
-namespace Malu\Captcha
+namespace Malu\Captcha;
 
 
 
